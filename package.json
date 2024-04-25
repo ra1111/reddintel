@@ -1,7 +1,7 @@
 {
   "name": "reddit-analyzer",
   "version": "0.1.0",
-  "homepage": "https://github.com/ra1111/reddintel",
+  "homepage": "https://ra1111.github.io/reddintel/",
   "private": true,
   "dependencies": {
     "@lottiefiles/react-lottie-player": "^3.5.3",
