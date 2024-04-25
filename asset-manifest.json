@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/reddintel/static/css/main.9b96ceb5.css",
-    "main.js": "/reddintel/static/js/main.a65dcd69.js",
-    "static/js/453.abb94009.chunk.js": "/reddintel/static/js/453.abb94009.chunk.js",
-    "static/media/header-image.jpg": "/reddintel/static/media/header-image.0f139bbe95527eb7a24d.jpg",
-    "index.html": "/reddintel/index.html",
-    "main.9b96ceb5.css.map": "/reddintel/static/css/main.9b96ceb5.css.map",
-    "main.a65dcd69.js.map": "/reddintel/static/js/main.a65dcd69.js.map",
-    "453.abb94009.chunk.js.map": "/reddintel/static/js/453.abb94009.chunk.js.map"
+    "main.css": "/static/css/main.cff05a01.css",
+    "main.js": "/static/js/main.178ceb61.js",
+    "static/js/453.abb94009.chunk.js": "/static/js/453.abb94009.chunk.js",
+    "static/media/header-image.jpg": "/static/media/header-image.0f139bbe95527eb7a24d.jpg",
+    "index.html": "/index.html",
+    "main.cff05a01.css.map": "/static/css/main.cff05a01.css.map",
+    "main.178ceb61.js.map": "/static/js/main.178ceb61.js.map",
+    "453.abb94009.chunk.js.map": "/static/js/453.abb94009.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b96ceb5.css",
-    "static/js/main.a65dcd69.js"
+    "static/css/main.cff05a01.css",
+    "static/js/main.178ceb61.js"
   ]
 }
