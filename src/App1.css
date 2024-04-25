@@ -1,0 +1,135 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .App-header {
+    background-image: url('../public/header-image.jpg'); /* Set the background image, assuming image is in the public folder */
+    background-size: cover; /* Cover the entire area of the header */
+    background-position: center; /* Center the image in the header */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    color: white; /* Ensure text is readable over the background */
+    padding: 40px 20px; /* Add some padding */
+    text-align: center; /* Center the text */
+    position: relative; /* Relative position for the pseudo-element */
+  }
+  
+  /* Adding a semi-transparent overlay to ensure text visibility */
+  .App-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for text visibility */
+    z-index: 1; /* Below the text */
+  }
+  
+  /* Adjusting text properties for better visibility */
+  .App-header h1,
+  .App-header p {
+    position: relative;
+    z-index: 2; /* Above the overlay */
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.7); /* Text shadow for legibility */
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .search-bar-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .search-bar {
+    width: 40%;
+    line-height: 32px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 10px; /* Space between input and button */
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    outline: none;
+  }
+  
+  .search-bar:focus {
+    border-color: #4285f4;
+    box-shadow: 0 2px 6px rgba(66,133,244,0.5);
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: #4285f4;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    outline: none;
+  }
+  
+  .search-button:hover {
+    background-color: #357ae8;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+  .search-bar-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px; /* Adjust the space below the container */
+  }
+  /* Main content area */
+
+  /* Individual sections for a cleaner look */
+  section {
+    background: #fff; /* White background for the content */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  /* Section headers */
+  section h2 {
+    color: #333;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Post and content lists */
+  section ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0;
+  }
+  
+  section li {
+    padding: 10px 0;
+    border-top: 1px solid #eee;
+  }
+  
+  section li:first-child {
+    border-top: none;
+  }
+  
+  /* Links should stand out */
+  a {
+    color: #4285f4;
+    text-decoration: none;
+  }
+  
+
+  
